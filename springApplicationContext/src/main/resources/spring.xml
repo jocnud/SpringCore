@@ -7,9 +7,12 @@
         http://www.springframework.org/schema/context 
         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-<bean id="triangle" class="com.shahbaz.blog.springApplicationContext.Triangle">
-<property name="type" value="Equilateral"></property>
-</bean>
+	<bean id="triangle" class="com.shahbaz.blog.springApplicationContext.Triangle">
+		<property name="type" value="Equilateral"></property>
+	</bean>
 
+	<bean id="triangle-with-cons" class="com.shahbaz.blog.springApplicationContext.Triangle">
+		<property name="type" value="Righ Angle "></property>
+	</bean>
 
 </beans>
