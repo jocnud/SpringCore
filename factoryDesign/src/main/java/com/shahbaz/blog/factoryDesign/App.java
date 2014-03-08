@@ -8,6 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
+    	
+    	System.out.println(" This is something  . . .   which can pass second test");
+    	
     	System.out.println("Implementing Factory Desin Patterns");
     	
         ShapeFactory shapeFactory=new ShapeFactory();
