@@ -15,7 +15,7 @@ public class App
     	
         ShapeFactory shapeFactory=new ShapeFactory();
         
-        Shape triangle=shapeFactory.getShape("triangle");
+        Shape triangle=shapeFactory.getShape("circle");
         triangle.draw();
         
         Shape circle=shapeFactory.getShape("circle");
