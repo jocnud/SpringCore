@@ -10,6 +10,8 @@ public class App
     {
     	System.out.println("Implementing Factory Desin Patterns");
     	
+    	System.out.println(" tesy for collaboration");
+    	
         ShapeFactory shapeFactory=new ShapeFactory();
         
         Shape triangle=shapeFactory.getShape("triangle");
