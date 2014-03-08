@@ -8,6 +8,13 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! test " );
+        ShapeFactory shapeFactory=new ShapeFactory();
+        
+        Shape triangle=shapeFactory.getShape("triangle");
+        triangle.draw();
+        
+        Shape circle=shapeFactory.getShape("circle");
+        circle.draw();
+        
     }
 }
